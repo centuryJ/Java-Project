@@ -1,0 +1,153 @@
+body {
+	padding: 0;
+	font-family: "微软雅黑";
+}
+
+.container {
+	width: 1170px;
+}
+
+.col-xs-4 {
+	background-color: transparent;
+	border: none;
+	padding: 0;
+}
+
+.media-body, .media-left, .media-right {
+	display: table-cell;
+	vertical-align: top;
+}
+
+#navlogin li:first-child a img {
+	width: 38px;
+	height: 38px;
+	border-radius: 21px;
+	margin-right: 10px
+}
+
+#ad {
+	width: 100%;
+	height: 131px;
+	background: #6f92df;
+	margin-bottom: 30px;
+	min-width: 1170px;
+	padding-left: 126px;
+}
+
+#ad .container {
+	padding-left: 105px;;
+	background: url(../images/2016/banner.gif) center -1px no-repeat;
+	height: 131px;
+}
+
+#ad .container h2 {
+	color: #fff;
+	font-size: 30px;
+	margin-top: 0;
+	padding-top: 32px;
+	margin-bottom: 7px;
+}
+
+#ad .container h1 {
+	color: #fff;
+	font-size: 30px;
+	margin-top: 0;
+	padding-top: 32px;
+	margin-bottom: 7px;
+	padding-left: 50px;
+}
+
+#ad .container p {
+	color: #fff;
+	font-size: 12px;
+}
+
+#footer {
+	min-width: 1170px
+}
+
+header .nav-pills>li>a {
+	border-radius: 4px;
+	color: #333;
+	font-size: 16px;
+}
+
+header .nav>li>a:focus, .nav>li>a:hover {
+	background: transparent;
+}
+
+header .nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #ccc;
+	border-bottom: none;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	z-index: 999999999;
+}
+
+header .dropdown-menu {
+	top: 92%;
+	border-top-left-radius: 0;
+}
+
+header .dropdown-menu>li>a {
+	font-size: 14px
+}
+
+header .navbar-right {
+	list-style: none;
+}
+
+header .navbar-right li {
+	display: inline-block;
+	font-size: 14px;
+}
+
+header .navbar-right li a {
+	color: #333;
+	text-decoration: none;
+}
+
+header .dropdown-menu1 {
+	width: 240px;
+	padding: 10px;
+}
+
+header .dropdown-menu1 li+li {
+	margin-top: 10px;
+}
+
+header .dropdown-menu1 li a {
+	display: inline-block;
+	padding: 0;
+	color: #999;
+	padding-bottom: 7px;
+	border-bottom: 1px solid #fff;
+}
+
+header .dropdown-menu1 li a:hover {
+	color: #5986ee;
+	border-bottom: 1px solid #5986ee;
+}
+
+header .dropdown-menu1 li a+a {
+	margin-left: 20px;
+}
+
+.icon {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(../images/2016/icon.gif) left top no-repeat;
+}
+
+.icon-search {
+	background-position: -220px -2px;
+}
+
+.icon-login {
+	background-position: -179px 0px;
+	width: 38px;
+	height: 38px;
+	margin-bottom: -15px;
+}

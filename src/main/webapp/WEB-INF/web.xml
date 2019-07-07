@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+	<!-- 配置默认的起始页面 -->
+	<welcome-file-list>
+		<welcome-file>indexservlet</welcome-file>
+	</welcome-file-list>
+	
+	<!-- 全局处理el，不需要再每个jsp页面配置el的忽略 -->
+	<jsp-config>
+		<jsp-property-group>
+		    <url-pattern>*.jsp</url-pattern>
+			<el-ignored>false</el-ignored>
+		</jsp-property-group>
+	</jsp-config>
+</web-app>
